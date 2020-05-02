@@ -1,5 +1,5 @@
-function capitalize(string) {
-    return `${string[0].toUpperCase()}${string.slice(1)}`
-}
+const capitalize = (string) => {
+    return `${string[0].toUpperCase()}${string.slice(1)}`;
+};
 
-module.exports = capitalize;
+module.exports = capitalize
