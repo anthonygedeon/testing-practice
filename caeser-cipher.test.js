@@ -1,7 +1,7 @@
 const caesar = require('./caeser-cipher');
 
 it('Same Case', () => {
-    expect(caesar('I wanted a BIGG ol\' booty boiii', 13)).toBe('V jnagrq n OVTT by\' obbgl obvvv');
+    expect(caesar('Anthony', 7)).toBe('Huaovuf');
 })
 
 it('Punctuation', () => {
